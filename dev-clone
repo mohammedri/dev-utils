@@ -6,3 +6,5 @@ sub_folder=`echo $1 | cut -d":" -f2 | cut -d"/" -f2`
 echo $folder
 echo $sub_folder
 git clone $1 ~/projects/$folder/$sub_folder
+
+cd ~/projects/$folder/$sub_folder
